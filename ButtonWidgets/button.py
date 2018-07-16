@@ -25,7 +25,7 @@ class ButtonWindow(Gtk.Window):
 
         #passing text for label through constructor
         button = Gtk.Button(label="My Fav")
-        button.connect("clicked", lambda widgetButton : print("My fav",widgetButton))
+        button.connect("clicked", lambda widgetButton : print("My fav", widgetButton))
         hbox.pack_start(button, True, True, 0)
 
     def on_click_me_clicked(self, button):
